@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://geo-geo.a3c1.starter-us-west-1.openshiftapps.com/';
+$config['base_url'] = 'http://geo-jashosugaya.rhcloud.com/';
 //$config['base_url'] = 'http://190.40.171.5:8001/geo';
 
 /*
