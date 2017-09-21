@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Ubuntu:400,500,700');
+
+.page-header{
+	color:  #DA0815;
+ }
+
+.panel >.panel-heading{
+	color:#FFFFFF;
+	font-family: 'Ubuntu', sans-serif;
+	background-color: #DB0715;
+	font-size: 16px;
+}
+
+
+
+ #street-view {
+        width: 100%;
+        height: 100%;
+      }
+
+@media print {
+
+    .form-group ,  #btn_buscar, #printer
+    {
+        display: none;
+        visibility: hidden;
+    }
+    #panel_datos
+    {
+       height : 100%;
+        width: 750px;  
+    }
+    #panel_datos > .panel-heading
+    {
+       margin-top: -50px;
+
+    }
+    #panel_datos > .panel-body
+    {
+       margin-top: -100px;         
+        
+
+    }
+    
+    #panel_mapa
+     {
+       width: 750px;         
+        
+
+    }
+
+
+}
