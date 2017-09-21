@@ -53,7 +53,7 @@ $route['default_controller'] = 'index';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
-$route['formulario-privada'] = 'index/form_privada';
+$route['formulario-privada'] = 'Index/form_privada';
 $route['setdatosprivada/(:any)'] = 'index/setdatosprivada/$1';
 
 
